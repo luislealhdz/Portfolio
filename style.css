@@ -26,6 +26,10 @@ a {
     text-decoration: none;
 }
 
+body {
+    background-color: #f7f8fc;
+}
+
 .container {
     width: min(100% - 2rem, 1200px);
     margin-inline: auto;
@@ -46,7 +50,7 @@ a {
     margin-bottom: 3rem;
 }
 
-.hero__content {
+.content {
     font-size: 1rem;
     margin-bottom: 1rem;
 }
@@ -91,4 +95,15 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.about {
+    margin-top: 2rem;
+    box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.about__title {
+    margin-bottom: 0.5rem;
 }
