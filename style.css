@@ -43,12 +43,13 @@ body {
 }
 
 .hero__info {
-    display: block;
+    width: 100%;
 }
 
 .hero__title {
     font-size: 3rem;
     margin-bottom: 3rem;
+    margin-top: 3rem;
 }
 
 .content {
@@ -72,23 +73,26 @@ body {
 .hero__contact {
     background-color: #000000;
     color: #ffffff;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1rem;
     border-radius: 20px;
     border: none;
     width: 100%;
     font-size: 1rem;
+    display: block;
+    text-align: center;
 }
 
 .hero__picture {
     margin-top: 2rem;
     display: grid;
     place-items: center;
+    width: 100%;
 }
 
 .hero__profile {
     width: 300px;
     height: 300px;
-    border-radius: 20px;
+    border-radius: 50%;
     overflow: hidden;
 }
 
@@ -225,4 +229,15 @@ body {
     display: flex;
     gap: 1rem;
     align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero {
+        flex-direction: row;
+    }
+
+    .hero__contact {
+        padding: 0.7rem 2.5rem;
+        display: inline;
+    }
 }
