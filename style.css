@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --black: #212a33;
+    --white: #dce1e4;
+}
+
 h1,
 h2,
 h3,
@@ -38,7 +43,7 @@ body {
 
 .navbar {
     padding: 1rem 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--black);
     margin-bottom: 2rem;
 }
 
@@ -88,7 +93,7 @@ body {
 }
 
 .hero__contact {
-    background-color: #000000;
+    background-color: var(--black);
     color: #ffffff;
     padding: 0.8rem 3rem;
     border-radius: 20px;
@@ -122,13 +127,19 @@ body {
 
 .about {
     margin-top: 1.5rem;
-    box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    border-radius: 20px;
+}
+
+.about-bg {
+    background-color: var(--black);
+    padding: 5rem 0;
 }
 
 .about__title {
-    margin-top: 2rem;
+    color: var(--white);
+}
+
+.about p {
+    color: var(--white);
 }
 
 .projects {
@@ -228,7 +239,7 @@ body {
 
 .footer {
     margin-top: 2rem;
-    background-color: #000000;
+    background-color: var(--black);
     height: 150px;
 }
 
