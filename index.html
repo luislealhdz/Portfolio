@@ -10,15 +10,16 @@
 </head>
 
 <body>
+  <nav class="navbar">
+    <div class="container">
+      <p>Luigi Dev</p>
+    </div>
+  </nav>
   <main class="hero container">
     <section class="hero__info">
-      <h1 class="hero__title">Luis Angel Leal Hernández</h1>
+      <h2 class="hero__greet">Hi There! 👋🏻</h2>
+      <h1 class="hero__title">I´m Luis Leal</h1>
       <p class="content">A passionate software developer with a love for technology and the magic of the web.</p>
-      <ul class="hero__titles">
-        <li>Frontend Developer</li>
-        <li>Web Developer</li>
-        <li>Angular Developer</li>
-      </ul>
       <a href="https://www.linkedin.com/in/luis-leal-hdz/" target="_blank" class="hero__contact">Contact me</a>
     </section>
     <aside class="hero__picture">
@@ -27,24 +28,30 @@
       </div>
     </aside>
   </main>
-  <section class="container">
-    <h2 class="about__title">About me</h2>
-    <div class="about">
-      <p class="content">
-        Given that a significant portion of my professional career has been focused on web development, I understand the
-        importance of semantic HTML, the significance of responsive design (Mobile First), and the user experience when
-        visiting a website.
-      </p>
-      <p class="content">
-        In addition to using HTML5, CSS3, and JavaScript, I also have expertise in technologies such as Angular +14,
-        SASS,
-        Bootstrap, Typescript, version control with Git in conjunction with Github, and Figma for prototyping and web
-        layout.
-      </p>
-      <p>Since high school, I've taken classes on information technology and application
-        development, and ever since,
-        I've been fascinated by how giving instructions to a computer can create something as simple as a 'Hello world'
-        or even send a human into space.</p>
+  <section class="about-bg">
+    <div class="container">
+      <h2 class="about__title">About me</h2>
+      <div class="about">
+        <p class="content">
+          Given that a significant portion of my professional career has been focused on web development, I understand
+          the
+          importance of semantic HTML, the significance of responsive design (Mobile First), and the user experience
+          when
+          visiting a website.
+        </p>
+        <p class="content">
+          In addition to using HTML5, CSS3, and JavaScript, I also have expertise in technologies such as Angular +14,
+          SASS,
+          Bootstrap, Typescript, version control with Git in conjunction with Github, and Figma for prototyping and web
+          layout.
+        </p>
+        <p>Since high school, I've taken classes on information technology and application
+          development, and ever since,
+          I've been fascinated by how giving instructions to a computer can create something as simple as a 'Hello
+          world'
+          or even send a human into space.</p>
+      </div>
+
     </div>
   </section>
   <section class="projects container">
@@ -93,6 +100,9 @@
     <h2 class="languages__title">Languages</h2>
     <div class="languages__container">
       <article class="languages__card">
+        <div>
+          <img class="languages__card__icon" src="./public/front.svg" alt="Frontend logo">
+        </div>
         <p class="languages__tech">Frontend</p>
         <ul class="languages__stack">
           <li>HTML</li>
@@ -106,6 +116,9 @@
         </ul>
       </article>
       <article class="languages__card">
+        <div>
+          <img class="languages__card__icon" src="./public/back.svg" alt="Backend Logo">
+        </div>
         <p class="languages__tech">Backend</p>
         <ul class="languages__stack">
           <li>Java</li>
@@ -115,6 +128,9 @@
         </ul>
       </article>
       <article class="languages__card">
+        <div>
+          <img class="languages__card__icon" src="./public/database.svg" alt="Database Logo">
+        </div>
         <p class="languages__tech">Data Bases</p>
         <ul class="languages__stack">
           <li>MySQL</li>
