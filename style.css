@@ -190,9 +190,21 @@ body {
 }
 
 .languages__card {
-    box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.1);
+    background-color: var(--black);
     padding: 1.2rem;
     border-radius: 20px;
+}
+
+.languages__card p,
+li {
+    color: var(--white);
+}
+
+.languages__card__icon {
+    background-color: var(--white);
+    padding: 1rem;
+    display: block;
+    margin: 1rem auto;
 }
 
 .languages__tech {
