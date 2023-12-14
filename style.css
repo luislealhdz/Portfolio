@@ -46,7 +46,6 @@ body {
 
 .hero__info {
     width: 100%;
-    border: 1px solid red;
 }
 
 .hero__greet {
@@ -81,13 +80,14 @@ body {
 .hero__contact {
     background-color: #000000;
     color: #ffffff;
-    padding: 0.8rem 1rem;
+    padding: 0.8rem 3rem;
     border-radius: 20px;
     border: none;
-    width: 100%;
     font-size: 1rem;
-    display: block;
+    width: fit-content;
     text-align: center;
+    display: block;
+    margin-top: 2rem;
 }
 
 .hero__picture {
@@ -95,7 +95,6 @@ body {
     display: grid;
     place-items: center;
     width: 100%;
-    border: 1px solid red;
 }
 
 .hero__profile {
@@ -243,11 +242,6 @@ body {
 @media only screen and (min-width: 768px) {
     .hero {
         flex-direction: row;
-    }
-
-    .hero__contact {
-        padding: 0.7rem 2.5rem;
-        display: inline;
     }
 
     .hero__picture {
