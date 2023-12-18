@@ -41,10 +41,20 @@ body {
     margin-inline: auto;
 }
 
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .navbar {
     padding: 1rem 0;
     border-bottom: 1px solid var(--black);
     margin-bottom: 2rem;
+}
+
+.navbar__links {
+    display: none;
 }
 
 .navbar p {
@@ -296,6 +306,17 @@ li {
     .navbar {
         margin-bottom: 0;
     }
+
+    .navbar__links {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .navbar__links a {
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+
     .hero {
         flex-direction: row;
     }
