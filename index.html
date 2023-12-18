@@ -6,14 +6,37 @@
   <link rel="icon" type="image/svg+xml" href="/Portfolio/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Luis Leal 💻</title>
-  <script type="module" crossorigin src="/Portfolio/assets/index-AJ4PF_k0.js"></script>
-  <link rel="stylesheet" crossorigin href="/Portfolio/assets/index-yNFf3NH_.css">
+  <script type="module" crossorigin src="/Portfolio/assets/index-RglPnNhS.js"></script>
+  <link rel="stylesheet" crossorigin href="/Portfolio/assets/index-WOSsKikO.css">
 </head>
 
 <body>
   <nav class="navbar">
-    <div class="container">
-      <p>Luigi Dev</p>
+    <div class="container d-flex">
+      <div>
+        <p>
+          <a href="/">
+            Luigi Dev
+          </a>
+        </p>
+      </div>
+      <ul class="navbar__links">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="#about">About me</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#languages">Languages</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+      </ul>
     </div>
   </nav>
   <main class="hero container">
@@ -29,7 +52,7 @@
       </div>
     </aside>
   </main>
-  <section class="about-bg">
+  <section class="about-bg" id="about">
     <div class="container">
       <h2 class="about__title">About me</h2>
       <div class="about">
@@ -55,45 +78,53 @@
 
     </div>
   </section>
-  <section class="projects container">
+  <section class="projects container" id="projects">
     <h2 class="projects__title">Projects</h2>
     <div class="projects__grid">
       <article class="projects__card">
-        <header class="projects__card__background">
-          <img class="projects__card__picture" src="/Portfolio/assets/countries-api-oOex1iAO.jpeg" alt="Project Image">
-        </header>
-        <footer class="projects__card__title">
-          <p><a href="https://github.com/luislealhdz/Countries-Assestment" target="_blank">Countries API</a></p>
-        </footer>
+        <a href="https://github.com/luislealhdz/Countries-Assestment" target="_blank">
+          <header class="projects__card__background">
+            <img class="projects__card__picture" src="/Portfolio/assets/countries-api-oOex1iAO.jpeg" alt="Project Image">
+          </header>
+          <footer class="projects__card__title">
+            <p>Countries API</p>
+          </footer>
+        </a>
       </article>
       <article class="projects__card">
-        <header class="projects__card__background">
-          <img class="projects__card__picture" src="/Portfolio/assets/ohmyyog-KwWbUMBi.jpeg" alt="Project Image">
-        </header>
-        <footer class="projects__card__title">
-          <p><a href="https://github.com/DestroyerRexor/OhMyYog" target="_blank">App Oh My Yog</a></p>
-        </footer>
+        <a href="https://github.com/DestroyerRexor/OhMyYog" target="_blank">
+          <header class="projects__card__background">
+            <img class="projects__card__picture" src="/Portfolio/assets/ohmyyog-KwWbUMBi.jpeg" alt="Project Image">
+          </header>
+          <footer class="projects__card__title">
+            <p>App Oh My Yog</p>
+          </footer>
+        </a>
       </article>
       <article class="projects__card">
-        <header class="projects__card__background">
-          <img class="projects__card__picture" src="/Portfolio/assets/tech-wave-sRfEAogK.jpeg" alt="Project Image">
-        </header>
-        <footer class="projects__card__title">
-          <p><a href="https://github.com/luislealhdz/tech-wave" target="_blank">Tech Wave</a></p>
-        </footer>
+        <a href="https://github.com/luislealhdz/tech-wave" target="_blank">
+          <header class="projects__card__background">
+            <img class="projects__card__picture" src="/Portfolio/assets/tech-wave-sRfEAogK.jpeg" alt="Project Image">
+          </header>
+          <footer class="projects__card__title">
+            <p>Tech Wave</p>
+          </footer>
+        </a>
       </article>
       <article class="projects__card">
-        <header class="projects__card__background">
-          <img class="projects__card__picture" src="/Portfolio/assets/bg-Jo1k1DvN.jpeg" alt="Project Image">
-        </header>
-        <footer class="projects__card__title">
-          <p><a href="https://github.com/luislealhdz/ReactTaskApp" target="_blank">React Task App</a></p>
-        </footer>
+        <a href="https://github.com/luislealhdz/ReactTaskApp" target="_blank">
+          <header class="projects__card__background">
+            <img class="projects__card__picture" src="/Portfolio/assets/bg-Jo1k1DvN.jpeg" alt="Project Image">
+          </header>
+          <footer class="projects__card__title">
+            <p>React Task App</p>
+          </footer>
+        </a>
       </article>
     </div>
   </section>
 
-  <section class="container">
+  <section class="container" id="languages">
     <h2 class="languages__title">Languages</h2>
     <div class="languages__container">
       <article class="languages__card">
@@ -138,7 +169,7 @@
       </article>
     </div>
   </section>
-  <section class="container">
+  <section class="container" id="experience">
     <h2 class="experience__title">Experience</h2>
     <div class="experience__container">
       <article class="experience__card">
