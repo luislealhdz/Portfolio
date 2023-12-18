@@ -103,6 +103,11 @@ body {
     text-align: center;
     display: block;
     margin-top: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.hero__contact:hover {
+    transform: scale(1.1);
 }
 
 .hero__picture {
@@ -157,6 +162,11 @@ body {
     box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.projects__card:hover {
+    transform: translateY(-10px);
 }
 
 .projects__card__background {
@@ -193,6 +203,11 @@ body {
     background-color: var(--black);
     padding: 1.2rem;
     border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.languages__card:hover {
+    transform: translateY(-10px);
 }
 
 .languages__card p,
@@ -237,6 +252,11 @@ li {
     box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.1);
     padding: 1.2rem;
     border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.experience__card:hover {
+    transform: translateY(-10px);
 }
 
 .experience__company {
